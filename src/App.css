@@ -1,0 +1,33 @@
+.week_btn {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.week_btn button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.timezone {
+  margin-top: 20px;
+}
+.select_timezone {
+  padding: 10px;
+  width: 100%;
+}
+.all_days {
+  display: flex;
+  border: 0.5px solid gray;
+  margin-top: 20px;
+}
+.all_days_0 {
+  background-color: rgb(156, 155, 155);
+  width: 15%;
+  text-align: center;
+}
+.all_days_1 {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  flex-wrap: wrap;
+}
